@@ -5,7 +5,7 @@ const useGetConversations = () => {
 	const [loading, setLoading] = useState(false);
 	const [conversations, setConversations] = useState([]);
 
-	useEffect(() => {       //THis useEffect will run only for one time;
+	useEffect(() => {       //This useEffect will run only for one time;
 		const getConversations = async () => {
 			setLoading(true);
 			try {
